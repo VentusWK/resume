@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.5.10)  25 SEP 2022 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.9.14)  27 SEP 2022 13:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -192,7 +192,7 @@ Package: babel 2021/04/26 3.58 The Babel package
 File: babel.def 2021/04/26 3.58 Babel common definitions
 \babel@savecnt=\count199
 \U@D=\dimen149
-\l@unhyphenated=\language85
+\l@unhyphenated=\language86
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
 )
@@ -202,9 +202,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language26). Reported on input line 105.
+(babel)             (\language38). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language26). Reported on input line 108.
+(babel)             (\language38). Reported on input line 108.
 )) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
@@ -315,15 +315,15 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 6708D721857FD4BC91BB6D83EF205343;538.
  ) 
 Here is how much of TeX's memory you used:
- 9698 strings out of 478862
- 142154 string characters out of 5858945
- 474762 words of memory out of 6000000
- 27204 multiletter control sequences out of 15000+600000
+ 9698 strings out of 478855
+ 142154 string characters out of 5858635
+ 477800 words of memory out of 6000000
+ 27205 multiletter control sequences out of 15000+600000
  409022 words of font info for 49 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 60i,11n,63p,280b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,316b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 103381 bytes).
+Output written on resume.pdf (1 page, 106056 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream

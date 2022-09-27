@@ -122,9 +122,9 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \item{\small
-     \textbf{Languages}{: Python, HTML/CSS, JavaScript, Java, C/C++, SQL (Postgres)} \\
-     \textbf{Frameworks}{: Bootstrap, React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, VS Code, Fedora Linux} \\
+     \textbf{Languages}{: Python, HTML/CSS, JavaScript, Java, Kotlin, C/C++, MySQL} \\
+     \textbf{Frameworks}{: Django, Bootstrap} \\
+     \textbf{Developer Tools}{: Git, VS Code, Linux/Unix} \\
     }
  \end{itemize}
 
@@ -134,8 +134,14 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of Arkansas}{Fayetteville, AR}
-      {Bachelor of Arts in Computer Science, Minor in Math $\mid$ GPA: 3.93}{Aug. 2019 -- Expected May 2023}
+      {Bachelor of Arts in Computer Science $\mid$ GPA: 3.93}{Aug. 2019 -- Expected May 2023}
   \resumeSubHeadingListEnd
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small
+    \item{
+      \subitem \textbf{Relevant Coursework:}{ Database Management, Algorithms, Software Engineering} 
+    }
+  \end{itemize}
   
 
 
@@ -144,8 +150,12 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Undergraduate Research Assistant}{August 2022 -- Present}
+      {Undergraduate Research Assistant}{September 2022 -- Present}
       {University of Arkansas}{Fayetteville, AR}
+      \resumeItemListStart
+        \resumeItem{Working in Dr. Luu's Computer Vision and Image Understanding Lab}
+        \resumeItem{Currently working on improving the yolov7 object detection model.}
+      \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
 %    \resumeSubSubheading
@@ -163,20 +173,23 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Laser Tag Web Interface} $|$ \emph{Python, Django, PostgreSQL}}{January 2022 -- April 2022}
+          {\textbf{Laser Tag Web Interface} $|$ \emph{Python, Django, HTML/CSS, JavaScript, PostgreSQL, Git}}{January 2022 -- April 2022}
           \resumeItemListStart
-            \resumeItem{Developed a web application to respond to packets from a laser tag game with a group of five}
-            \resumeItem{Implemented storing players in a PostgreSQL database}
-            \resumeItem{Created the frontend interface}
-            \resumeItem{Used Celery and Redis for asynchronous tasks}
+            \resumeItem{A web application to facilitate the management of laser tag games through websockets.}
+            \resumeItem{Implemented storing players in a PostgreSQL database using Django's migration system}
+            \resumeItem{Created the user interface for creating players/assigning teams as well as the scorekeeping screen with the killfeed}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+          {\textbf{Android Calculator} $|$ \emph{Kotlin, Android, Git/GitHub}}{September 2022}
           \resumeItemListStart
-            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+            \resumeItem{An Android 8.1+ calculator implemented using the EvalEx library}
+            \resumeItem{Implemented addition, subtraction, multiplication, division, error checking, BigDecimal calculations}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Same Photo of Joshua King Everyday} $|$ \emph{Python, AWS}}{September 2022}
+          \resumeItemListStart
+            \resumeItem{A Python script that posts the same photo of everyday with a Sun Tzu quote caption on Facebook using their Graph API}
+            \resumeItem{Currently hosted on AWS as a lambda function}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -191,12 +204,16 @@
 \section{Certifications/Honors}
 \begin{itemize}[leftmargin=0.15in, label={}]
   \small
+  \item{ 
+    \textbf{J.B. Hunt Hackathon 2022 $\mid$ 4th Place} \hfill {April 1st, 2022} \\
+    \subitem The theme of the event was "Pranks". Our team of four created a Python script using TKInter that would mess with the user's computing experience by moving the user's mouse and making hardcoded actions happen after detecting certain words/phrases from a keylogger.
+  }
   \item{
    \textbf{Engineering Career Awareness Program (ECAP)} \hfill {August 2019 -- Present}\\
    \subitem A nationally recognized competitive program designed to promote the success of underrepresented engineering students.}
   \item{
     \textbf{Julian \& Nana Stewart Honors College Fellowship} \hfill {August 2019 -- Present}\\
-    \subitem One of four students given}
+    \subitem One of four students in the College of Engineering to receive this award for academic achievement.}
 \end{itemize}
 
 \end{document}
